@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{@apply bg-bg text-ink font-sans antialiased}
+.card{@apply rounded-xl border border-white/10 bg-card}
+.btn{@apply inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-brand to-accent px-4 py-2 text-sm font-medium text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent disabled:opacity-50}
+.btn-ghost{@apply inline-flex items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-sm text-mute hover:text-ink}
+.input{@apply w-full rounded-lg border border-white/10 bg-bg px-3 py-2 text-sm outline-none focus:border-accent}
